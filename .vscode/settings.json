@@ -4,8 +4,14 @@
         "-s",
         "./tests",
         "-p",
-        "*test*.py"
+        "test_*.py"
     ],
     "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.defaultInterpreterPath": "python",
+    "python.terminal.activateEnvironment": true,
+    "testing.automaticallyOpenPeekView": "failureInVisibleDocument",
+    "testing.openTesting": "neverOpen"
 }
