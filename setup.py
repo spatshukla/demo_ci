@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from demop_ci import __version__
+from demo_ci import __version__
 
 setup(
     name="demo_ci",
